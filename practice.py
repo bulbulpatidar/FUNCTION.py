@@ -1,41 +1,47 @@
-# def add(a,b):
-#     print(a+b)
-# add(4,5)    
+# def sum():
+#     a=3
+#     b=4
+#     c=2
+#     print(a+b+c)
+# sum()    
 
-# def add(a,b=5):
-#     c=a+b
-#     print(c)
-# add(6)    
+# def greter(a,b):
+#     ad=a+b
+#     if ad>=15 and ad<=20:
+#         print("20")
+#     else:
+#         print(ad) 
+# a=int(input("enter the number"))
+# b=int(input("enter the number"))
+# greter(a,b)           
 
-# def interest(prin,rate,time):
-#     i=(prin*time*rate)/100
-#     print(i)
-# interest(prin=5000,time=2,rate=10)    
-
-# def fun(**kid):
-#     print(kid)
-# fun(fname="tobias",lname="refence")    
-
-# def fun(*kid):
-#     print(kid)
-# fun("email","tobias","linus")    
-
-# def count(a):
-#     i=0
-#     c=0
-#     c1=0
-#     while i<len(a):
-#         if a[i]==a[i].upper():
-#             c+=1
-#         else:
-#             c1+=1
+# def reverse(a):
+#     i=1
+#     l=[]
+#     while i<=len(a):
+#         l.append(a[-i])
 #         i+=1
-#     print(c)
-#     print(c1)  
-# count("buLbUL")  
-# 
-# 
-def sum():
-    k=3+4
-    return k
-print(sum())    
+#     print(l)
+# reverse(["a","3",5,"e"])        
+
+def present(n):
+    b=int(input("enter the number"))
+    i=0
+    while i<len(n):
+        if n[i]==b:
+            print(b,"is present")
+            break
+        else:
+            print("not present")
+            break
+        i+=1
+l=[]
+j=1
+while j<=5:
+    e=int(input("enter the element"))
+    j+=1
+    l.append(e)
+print(l)  
+present(l)  
+
+
